@@ -35,9 +35,24 @@ p {
   width: 5%;
 }
 
+.dftgh-pic {
+  text-align: center;
+  margin: auto;
+  width: 40%;
+  display: flex;
+}
+
 #podcaster-pics {
   padding-top: 50px;
   padding-bottom: 50px;
+}
+
+.Ed {
+  text-align: center;
+}
+
+.Ob {
+  text-align: center;
 }
 
 .buffer {
@@ -46,7 +61,7 @@ p {
 }
 
 .ed-pic {
-  width: 50%;
+  width: 30%;
   border-radius: 100%;
   display: block;
   margin: auto;
@@ -54,7 +69,7 @@ p {
 }
 
 .ob-pic {
-  width: 50%;
+  width: 30%;
   border-radius: 100%;
   display: block;
   margin: auto;
@@ -75,11 +90,17 @@ p {
   display: block;
 }
 
+.podcast-buttons {
+  margin: auto;
+  text-align: center;
+}
+
 #apple-button {
   margin-top: 50px;
   padding: 50px;
   display: block;
   margin: auto;
+  text-align: center;
 }
 
 #amazon-button {
@@ -87,12 +108,14 @@ p {
   padding: 50px;
   display: block;
   margin: auto;
+  text-align: center;
 }
 
 #amazon-pic {
   width: 280px;
   height: 90px;
   border-radius: 13px;
+  text-align: center;
 }
 
 
@@ -100,6 +123,11 @@ p {
   font-style: "Montserrat, non-serif";
   font-weight: 100;
   color: #fff;
+}
+
+.testimonial-title {
+  padding-top: 20px;
+  padding-bottom: 50px;
 }
 
 .twitter-timeline {
