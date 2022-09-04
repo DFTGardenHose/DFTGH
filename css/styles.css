@@ -27,32 +27,65 @@ p {
   color: #fff;
 }
 
+.container-fluid {
+  position: relative;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
 .hose-pic {
   padding-top: 20px;
   padding-bottom: 10px;
   margin-left: 50px;
   margin-right: 50px;
-  width: 5%;
+  width: 10%;
+}
+
+.title-text {
+  top: 0;
+  left: 0;
+  text-align: center;
+  top: 30px;
+  width: 100%;
+  height: 100%;
+
+}
+
 }
 
 .dftgh-pic {
   text-align: center;
-  margin: auto;
-  width: 40%;
-  display: flex;
+  width: 30%;
+}
+
+.charm {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+}
+
+.hr {
+  color: #fff;
+}
+
+.meet {
+  padding-bottom: 50px;
 }
 
 #podcaster-pics {
   padding-top: 50px;
   padding-bottom: 50px;
+  background: linear-gradient(to bottom right, #667292, #034f84);
 }
 
 .Ed {
   text-align: center;
+  padding-bottom: 100px;
 }
 
 .Ob {
   text-align: center;
+  padding-bottom: 100px;
 }
 
 .buffer {
@@ -125,25 +158,12 @@ p {
   color: #fff;
 }
 
+/* Testimonial Section */
+
 .testimonial-title {
   padding-top: 20px;
   padding-bottom: 50px;
 }
-
-.twitter-timeline {
-  width: 20%;
-}
-
-#twitter-feeds {
-  margin: 15px;
-}
-
-.twitter-follow-button {
-  display: block;
-  margin: 10px auto 10px;
-}
-
-/* Testimonial Section */
 
 #testimonials {
   text-align: center;
@@ -158,4 +178,34 @@ p {
 
 .carousel-item {
   padding: 7% 15%;
+}
+
+/* Social Media Section */
+
+.social-media-title {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.twitter-timeline {
+  width: 100%;
+}
+
+#twitter-feeds {
+  margin: 15px;
+  width: 100%;
+  background: linear-gradient(to bottom right, #667292, #034f84);
+}
+
+.twitter-follow-button {
+  display: block;
+  margin: 10px auto 10px;
+}
+
+
+/* Contact Form */
+
+.contact-form {
+  color: #fff;
+  text-align: left;
 }
