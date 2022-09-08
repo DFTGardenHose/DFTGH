@@ -56,6 +56,16 @@ p {
 .dftgh-pic {
   text-align: center;
   width: 30%;
+  animation: moveHose 750ms ease-in;
+}
+
+@keyframes moveHose{
+  0% {
+  transform: translateX(-100%);
+  }
+  100% {
+  transform: translateX(0%);
+  }
 }
 
 .charm {
@@ -132,12 +142,32 @@ p {
   display: block;
   margin: auto;
   text-align: center;
+  animation: moveApple 750ms ease-out;
+}
+
+@keyframes moveApple{
+  0% {
+  transform: translateX(-100%);
+  }
+  100% {
+  transform: translateX(0%);
+  }
 }
 
 #amazon-button {
   display: block;
   margin: auto;
   text-align: center;
+  animation: moveAmazon 750ms ease-out;
+}
+
+@keyframes moveAmazon{
+  0% {
+  transform: translateX(100%);
+  }
+  100% {
+  transform: translateX(0%);
+  }
 }
 
 #amazon-pic {
