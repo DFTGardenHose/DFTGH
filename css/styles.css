@@ -53,16 +53,6 @@ p {
 .dftgh-pic {
   text-align: center;
   width: 30%;
-  animation: moveHose 750ms ease-in;
-}
-
-@keyframes moveHose{
-  0% {
-  transform: translateX(-100%);
-  }
-  100% {
-  transform: translateX(0%);
-  }
 }
 
 .charm {
