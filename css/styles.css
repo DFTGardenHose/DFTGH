@@ -124,13 +124,13 @@ p {
   font-size: 30px;
   text-align: center;
   padding-top: 15px;
-  color: #bac4c5;
+  color: #fff;
 }
 
 .desc-2 {
   font-size: 30px;
   text-align: center;
-  color: #bac4c5;
+  color: #fff;
 }
 
 #pink {
@@ -154,6 +154,20 @@ p {
   animation: moveImgRight 750ms ease-out;
 }
 
+#amazon-button {
+  display: block;
+  margin: auto;
+  text-align: center;
+  animation: moveImgLeft 750ms ease-out;
+}
+
+#amazon-pic {
+  width: 280px;
+  height: 90px;
+  border-radius: 13px;
+  text-align: center;
+}
+
 @keyframes moveImgRight{
   0% {
   transform: translateX(-100%);
@@ -161,13 +175,6 @@ p {
   100% {
   transform: translateX(0%);
   }
-}
-
-#amazon-button {
-  display: block;
-  margin: auto;
-  text-align: center;
-  animation: moveImgLeft 750ms ease-out;
 }
 
 @keyframes moveImgLeft{
@@ -179,12 +186,44 @@ p {
   }
 }
 
-#amazon-pic {
-  width: 280px;
-  height: 90px;
-  border-radius: 13px;
-  text-align: center;
+@keyframes spinRight {
+  0% {
+    transform: translateX(-300%) rotate(0);
+  }
+  100% {
+    transform: translateX(0%) rotate(720deg);
+  }
 }
+
+@keyframes spinLeft {
+  0% {
+    transform: translateX(300%) rotate(0);
+  }
+  100% {
+    transform: translateX(0%) rotate(-720deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-720deg);
+  }
+}
+
+.spin  {
+  animation: spin 3s;
+}
+
+.charm {
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  animation: spinRight 3s ease-in-out;
+}
+
 
 
 #bullet-points {
