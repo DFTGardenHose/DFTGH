@@ -50,6 +50,11 @@ p {
   height: 100%;
 }
 
+.podcast-title {
+  color: #45c983;
+  animation: blinker 2s step-start infinite;
+}
+
 .dftgh-pic {
   text-align: center;
   animation: moveImgRight 750ms ease-out;
@@ -210,6 +215,12 @@ p {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes blinker {
+  50% {
+    color: #fff;
   }
 }
 
