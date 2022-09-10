@@ -209,12 +209,20 @@ p {
     transform: rotate(0);
   }
   100% {
-    transform: rotate(-720deg);
+    transform: rotate(360deg);
   }
 }
 
 .spin  {
   animation: spin 3s;
+}
+
+.spinEd  {
+  animation: spin 17s;
+}
+
+.spinOb  {
+  animation: spin 10s;
 }
 
 .charm {
@@ -223,8 +231,6 @@ p {
   text-align: center;
   animation: spinRight 3s ease-in-out;
 }
-
-
 
 #bullet-points {
   font-style: "Montserrat, non-serif";
