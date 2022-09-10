@@ -120,6 +120,28 @@ p {
   display: block;
 }
 
+.desc-1 {
+  font-size: 30px;
+  text-align: center;
+  padding-top: 15px;
+  color: #bac4c5;
+}
+
+.desc-2 {
+  font-size: 30px;
+  text-align: center;
+  color: #bac4c5;
+}
+
+#pink {
+  color: #ff69b4;
+} 
+
+#blue {
+  color: #00ffff;
+} 
+
+  
 .podcast-buttons {
   margin: auto;
   text-align: center;
