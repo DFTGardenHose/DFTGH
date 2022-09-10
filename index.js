@@ -1,5 +1,6 @@
 var edSoundClip = new Audio("sounds/ed-snake.m4a");
 var obSoundClip = new Audio("sounds/OB-DWM.m4a");
+var ericSoundClip = new Audio("sounds/eric.m4a");
 
 $(".ob-pic").on("click", function() {
   $(".ob-pic").toggleClass("spinOb");
@@ -12,5 +13,6 @@ $(".ed-pic").on("click", function() {
 });
 
 $(".eric-pic").on("click", function() {
-  $(".eric-pic").toggleClass("spin");
+  $(".eric-pic").toggleClass("spinEric");
+  ericSoundClip.play();
 });
