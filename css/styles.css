@@ -239,6 +239,10 @@ p {
   animation: spin 10s;
 }
 
+.spinEric  {
+  animation: spin 37s;
+}
+
 .charm {
   color: #fff;
   font-size: 20px;
