@@ -51,8 +51,21 @@ p {
 }
 
 .podcast-title {
-  color: #45c983;
-  animation: blinker 2s step-start infinite;
+  font-style: "Montserrat, non-serif";
+  font-weight: 900;
+  animation: texclip 1.5s linear infinite;
+  background: linear-gradient(to right,#034f84 10%, #667292 50%, #45c983 60%);
+  background-clip: border-box;
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 10s linear infinite;
+  display: inline-block;
 }
 
 .dftgh-pic {
