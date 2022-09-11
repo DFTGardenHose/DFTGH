@@ -77,10 +77,7 @@ p {
   color: #fff;
   font-size: 20px;
   text-align: center;
-}
-
-.hr {
-  color: #fff;
+  animation: spinRight 3s ease-in-out;
 }
 
 .meet {
@@ -222,7 +219,7 @@ p {
     transform: translateX(-300%) rotate(0);
   }
   100% {
-    transform: translateX(0%) rotate(720deg);
+    transform: translateX(0%) rotate(36000deg);
   }
 }
 
