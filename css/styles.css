@@ -53,6 +53,7 @@ p {
 .podcast-title {
   font-style: "Montserrat, non-serif";
   font-weight: 900;
+  font-size: 50px;
   animation: texclip 1.5s linear infinite;
   background: linear-gradient(to right,#034f84 10%, #667292 50%, #45c983 60%);
   background-clip: border-box;
