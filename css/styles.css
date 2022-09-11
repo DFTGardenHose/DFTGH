@@ -80,7 +80,8 @@ p {
 }
 
 .fa-volume-high {
-animation: blinker 2s step-start infinite;
+  color: #034f84;
+  animation: blinker 2s step-start infinite;
 }
 
 #podcaster-pics {
