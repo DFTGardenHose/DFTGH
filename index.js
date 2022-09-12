@@ -23,27 +23,27 @@ $(".ed-pic").on("click", function() {
 });
 
 $("#ed-girldad").on("click", function() {
-  $(".ed-pic").toggleClass("spinEd");
+  $(".ed-pic").toggleClass("spinEdGirlDad");
   edGirldadSoundClip.play();
 });
 
 $("#ed-snake").on("click", function() {
-  $(".ed-pic").toggleClass("spinEd");
+  $(".ed-pic").toggleClass("spinEdSnake");
   edSnakeSoundClip.play();
 });
 
 $("#ed-snore").on("click", function() {
-  $(".ed-pic").toggleClass("spinEd");
+  $(".ed-pic").toggleClass("spinEdSnore");
   edSnoreSoundClip.play();
 });
 
 $("#ed-travel").on("click", function() {
-  $(".ed-pic").toggleClass("spinEd");
+  $(".ed-pic").toggleClass("spinEdTravel");
   edTravelSoundClip.play();
 });
 
 $("#ed-king").on("click", function() {
-  $(".ed-pic").toggleClass("spinEd");
+  $(".ed-pic").toggleClass("spinEdKing");
   edKingSoundClip.play();
 });
 
@@ -55,28 +55,28 @@ $(".ob-pic").on("click", function() {
 });
 
 $("#ob-boydad").on("click", function() {
-  $(".ob-pic").toggleClass("spinOb");
+  $(".ob-pic").toggleClass("spinObBoyDad");
   obBoyDadSoundClip.play();
 });
 
 
 $("#ob-swords").on("click", function() {
-  $(".ob-pic").toggleClass("spinOb");
+  $(".ob-pic").toggleClass("spinObSwords");
   obSwordsSoundClip.play();
 });
 
 $("#ob-vacation").on("click", function() {
-  $(".ob-pic").toggleClass("spinOb");
+  $(".ob-pic").toggleClass("spinObVacation");
   obVacationSoundClip.play();
 });
 
 $("#ob-dwm").on("click", function() {
-  $(".ob-pic").toggleClass("spinOb");
+  $(".ob-pic").toggleClass("spinObDWM");
   obDWMSoundClip.play();
 });
 
 $("#ob-rawdog").on("click", function() {
-  $(".ob-pic").toggleClass("spinOb");
+  $(".ob-pic").toggleClass("spinObRawdog");
   obRawdogSoundClip.play();
 });
 
@@ -86,3 +86,4 @@ $(".eric-pic").on("click", function() {
   $(".eric-pic").toggleClass("spinEric");
   ericSoundClip.play();
 });
+
