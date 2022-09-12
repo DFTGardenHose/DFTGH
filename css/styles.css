@@ -254,11 +254,51 @@ p {
 }
 
 .spinEd  {
+  animation: spin 4s;
+}
+
+.spinEdGirlDad  {
+  animation: spin 32s;
+}
+
+.spinEdSnake  {
   animation: spin 17s;
 }
 
+.spinEdSnore  {
+  animation: spin 19s;
+}
+
+.spinEdTravel  {
+  animation: spin 17s;
+}
+
+.spinEdKing  {
+  animation: spin 19s;
+}
+
 .spinOb  {
+  animation: spin 7s;
+}
+
+.spinObBoyDad  {
+  animation: spin 7s;
+}
+
+.spinObSwords  {
+  animation: spin 5s;
+}
+
+.spinObVacation  {
+  animation: spin 22s;
+}
+
+.spinObDWM  {
   animation: spin 10s;
+}
+
+.spinObRawdog  {
+  animation: spin 7s;
 }
 
 .spinEric  {
