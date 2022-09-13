@@ -243,6 +243,15 @@ p {
   }
 }
 
+@keyframes spinBig {
+  0% {
+    transform: rotate(0) scale(1);
+  }
+  100% {
+    transform: rotate(1440deg) scale(1.5);
+  }
+}
+
 @keyframes blinker {
   50% {
     color: #fff;
@@ -254,7 +263,7 @@ p {
 }
 
 .spinEd  {
-  animation: spin 4s;
+  animation: spinBig 5s;
 }
 
 .spinEdGirlDad  {
@@ -278,7 +287,7 @@ p {
 }
 
 .spinOb  {
-  animation: spin 7s;
+  animation: spinBig 5s;
 }
 
 .spinObBoyDad  {
