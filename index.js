@@ -17,10 +17,9 @@ var ericSoundClip = new Audio("sounds/eric.m4a");
 
 // Ed Audio
 
-// $(".ed-pic").on("click", function() {
-//   $(".ed-pic").toggleClass("spinEd");
-//   edUrinalSoundClip.play();
-// });
+$(".ed-pic").on("click", function() {
+   $(".ed-pic").toggleClass("spinEd");
+});
 
 $("#ed-girldad").on("click", function() {
   $(".ed-pic").toggleClass("spinEdGirlDad");
@@ -49,10 +48,9 @@ $("#ed-king").on("click", function() {
 
 // OB Audio
 
-// $(".ob-pic").on("click", function() {
-//   $(".ob-pic").toggleClass("spinOb");
-//   obTesticsSoundClip.play();
-// });
+$(".ob-pic").on("click", function() {
+  $(".ob-pic").toggleClass("spinOb");
+});
 
 
 $("#ob-boydad").on("click", function() {
