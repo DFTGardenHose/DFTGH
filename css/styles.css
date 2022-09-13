@@ -258,59 +258,59 @@ p {
   }
 }
 
-.spin  {
+.spin {
   animation: spin 3s;
 }
 
-.spinEd  {
+.spinEd {
   animation: spinBig 5s;
 }
 
-.spinEdGirlDad  {
+.spinEdGirlDad {
   animation: spin 32s;
 }
 
-.spinEdSnake  {
+.spinEdSnake {
   animation: spin 17s;
 }
 
-.spinEdSnore  {
+.spinEdSnore {
   animation: spin 37s;
 }
 
-.spinEdTravel  {
+.spinEdTravel {
   animation: spin 17s;
 }
 
-.spinEdKing  {
+.spinEdKing {
   animation: spin 19s;
 }
 
-.spinOb  {
+.spinOb {
   animation: spinBig 5s;
 }
 
-.spinObBoyDad  {
+.spinObBoyDad {
   animation: spin 27s;
 }
 
-.spinObSwords  {
+.spinObSwords {
   animation: spin 5s;
 }
 
-.spinObVacation  {
+.spinObVacation {
   animation: spin 22s;
 }
 
-.spinObDWM  {
+.spinObDWM {
   animation: spin 10s;
 }
 
-.spinObRawdog  {
+.spinObRawdog {
   animation: spin 7s;
 }
 
-.spinEric  {
+.spinEric {
   animation: spinBig 37s;
 }
 
