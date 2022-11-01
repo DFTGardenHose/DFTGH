@@ -72,6 +72,8 @@ p {
 .dftgh-pic {
   text-align: center;
   animation: moveImgRight 750ms ease-out;
+  border: solid #034f84 3px;
+  border-radius: 5%;
 }
 
 .charm {
@@ -197,10 +199,27 @@ p {
 }
 
 #amazon-pic {
-  width: 280px;
-  height: 90px;
-  border-radius: 13px;
+  width: 250px;
+  height: 58px;
+  border: solid white 1px;
+  border-radius: 5%;
   text-align: center;
+  margin-bottom: 15px;
+}
+
+#google-button {
+  display: inline-block;
+  text-align: center;
+  margin: auto;
+  animation: moveImgLeft 750ms ease-out;
+}
+
+#google-pic {
+  width: 250px;
+  height: 58px;
+  border-radius: 13px;
+  border: solid lightgray 1px;
+  margin-bottom: 15px;
 }
 
 @keyframes moveImgRight{
