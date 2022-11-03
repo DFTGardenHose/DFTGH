@@ -403,6 +403,16 @@ p {
   text-align: center;
 }
 
+.listen-title {
+  text-align: center;
+}
+
+.listen-icon {
+  color: #45c983;
+  animation: blinker 2s step-start infinite;
+}
+
+
 /* Contact Form */
 
 .contact-form {
