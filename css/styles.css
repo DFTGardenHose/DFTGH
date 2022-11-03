@@ -72,7 +72,7 @@ p {
 .dftgh-pic {
   text-align: center;
   animation: moveImgRight 750ms ease-out;
-  border: solid #034f84 3px;
+  box-shadow: rgba(192, 192, 192, 0.4) 5px 5px, rgba(192, 192, 192, 0.3) 10px 10px, rgba(192, 192, 192, 0.2) 15px 15px, rgba(192, 192, 192, 0.1) 20px 20px, rgba(192, 192, 192, 0.05) 25px 25px;
   border-radius: 5%;
 }
 
