@@ -106,12 +106,10 @@ p {
 
 .Ed {
   text-align: center;
-  padding-bottom: 100px;
 }
 
 .Ob {
   text-align: center;
-  padding-bottom: 100px;
 }
 
 .buffer {
@@ -123,21 +121,24 @@ p {
   width: 30%;
   border-radius: 100%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border: solid white 3px;
+  margin: 15px auto;
+  box-shadow: 2px 2px 10px white;
 }
 
 .ob-pic {
   width: 30%;
   border-radius: 100%;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 15px;
-  border: solid white 3px;
+  margin: 15px auto;
+  box-shadow: 2px 2px 10px white;
+}
+
+.ed-pic:hover {
+  box-shadow: 2px 3px 25px #2BFF88;
+}
+
+.ob-pic:hover {
+  box-shadow: 2px 3px 25px #2BFF88;
 }
 
 .rk-pic {
@@ -148,10 +149,10 @@ p {
 }
 
 .flounder-pic {
-  width: 15%;
+  width: 18%;
   border-radius: 100%;
-  margin: auto;
   display: block;
+  margin: auto;
 }
 
 .desc-1 {
@@ -393,6 +394,23 @@ p {
 .twitter-follow-button {
   display: block;
   margin: 10px auto 10px;
+}
+
+/* extra small screen sizes */
+
+@media screen and (max-width: 350px) {
+  .dftgh-pic {
+    width: 60%;
+  }
+
+  .desc-1, .desc-2, .charm {
+    font-size: 1em;
+  }
+
+  .podcast-title {
+    font-size: 2em;
+  }
+ 
 }
 
 
