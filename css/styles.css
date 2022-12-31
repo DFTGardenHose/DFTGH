@@ -311,6 +311,14 @@ p {
   animation: spin 19s;
 }
 
+.spinEdGiselle {
+  animation: spin 14s;
+}
+
+.spinEdSanta {
+  animation: spin 16s;
+}
+
 .spinOb {
   animation: spinBig 5s;
 }
@@ -333,6 +341,14 @@ p {
 
 .spinObRawdog {
   animation: spin 7s;
+}
+
+.spinObBear {
+  animation: spin 6s;
+}
+
+.spinObSockie {
+  animation: spin 6s;
 }
 
 .spinEric {
