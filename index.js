@@ -27,37 +27,37 @@ $(".ed-pic").on("click", function() {
    edUrinalSoundClip.play();
 });
 
-$("#ed-girldad").on("click", function() {
+$("#ed-girldad, #ed-girldad-2").on("click", function() {
   $(".ed-pic").toggleClass("spinEdGirlDad");
   edGirldadSoundClip.play();
 });
 
-$("#ed-snake").on("click", function() {
+$("#ed-snake, #ed-snake-2").on("click", function() {
   $(".ed-pic").toggleClass("spinEdSnake");
   edSnakeSoundClip.play();
 });
 
-$("#ed-snore").on("click", function() {
+$("#ed-snore, #ed-snore-2").on("click", function() {
   $(".ed-pic").toggleClass("spinEdSnore");
   edSnoreSoundClip.play();
 });
 
-$("#ed-travel").on("click", function() {
+$("#ed-travel, #ed-travel-2").on("click", function() {
   $(".ed-pic").toggleClass("spinEdTravel");
   edTravelSoundClip.play();
 });
 
-$("#ed-king").on("click", function() {
+$("#ed-king, #ed-king-2").on("click", function() {
   $(".ed-pic").toggleClass("spinEdKing");
   edKingSoundClip.play();
 });
 
-$("#ed-giselle").on("click", function() {
+$("#ed-giselle, #ed-giselle-2").on("click", function() {
   $(".ed-pic").toggleClass("spinEdGiselle");
   edGiselleSoundClip.play();
 });
 
-$("#ed-santa").on("click", function() {
+$("#ed-santa, #ed-santa-2").on("click", function() {
   $(".ed-pic").toggleClass("spinEdSanta");
   edSantaSoundClip.play();
 });
@@ -70,38 +70,38 @@ $(".ob-pic").on("click", function() {
 });
 
 
-$("#ob-boydad").on("click", function() {
+$("#ob-boydad, #ob-boydad-2").on("click", function() {
   $(".ob-pic").toggleClass("spinObBoyDad");
   obBoyDadSoundClip.play();
 });
 
 
-$("#ob-swords").on("click", function() {
+$("#ob-swords, #ob-swords-2").on("click", function() {
   $(".ob-pic").toggleClass("spinObSwords");
   obSwordsSoundClip.play();
 });
 
-$("#ob-vacation").on("click", function() {
+$("#ob-vacation, #ob-vacation-2").on("click", function() {
   $(".ob-pic").toggleClass("spinObVacation");
   obVacationSoundClip.play();
 });
 
-$("#ob-dwm").on("click", function() {
+$("#ob-dwm, #ob-dwm-2").on("click", function() {
   $(".ob-pic").toggleClass("spinObDWM");
   obDWMSoundClip.play();
 });
 
-$("#ob-rawdog").on("click", function() {
+$("#ob-rawdog, #ob-rawdog-2").on("click", function() {
   $(".ob-pic").toggleClass("spinObRawdog");
   obRawdogSoundClip.play();
 });
 
-$("#ob-bear").on("click", function() {
+$("#ob-bear, #ob-bear-2").on("click", function() {
   $(".ob-pic").toggleClass("spinObBear");
   obBearSoundClip.play();
 });
 
-$("#ob-sockie").on("click", function() {
+$("#ob-sockie, #ob-sockie-2").on("click", function() {
   $(".ob-pic").toggleClass("spinObSockie");
   obSockieSoundClip.play();
 });
